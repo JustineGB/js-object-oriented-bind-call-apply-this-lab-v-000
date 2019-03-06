@@ -1,5 +1,5 @@
 function justInvoke(fn) {
-  
+  this.fn = fn 
 }
 
 //The function simply invokes the function passed through to it. 
