@@ -3,13 +3,7 @@ function justInvoke(fn) {
 }
 
 function setThisWithCall(fn, thisValue, arg) {
-  this.arg = function() {
-        console.log(
-            `Your ${this.name} includes: ${this.ingredients.join(', ')}. Yum!`
-        );
-    };
-}
-}
+  return fn.call
 //The function again invokes the function
   //passed to it, but uses the `call` method to return the function's this value.
   //(Make sure to correctly pass the third argument!)
