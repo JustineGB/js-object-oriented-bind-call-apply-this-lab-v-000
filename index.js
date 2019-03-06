@@ -1,5 +1,5 @@
 function justInvoke(fn) {
-  return fn;
+  return fn();
 }
 
 //The function simply invokes the function passed through to it. 
