@@ -6,9 +6,7 @@ function setThisWithCall(fn, thisValue, arg) {
   return fn.call(thisValue, arg);
 }
 
-
-
-//setThisWithApply(fn, thisValue, args){
+setThisWithApply(fn, thisValue, args){
   return this.apply([thisValue, args])
 }
 
